@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.ProjectPro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.android.ProjectPro.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.ProjectPro.NumbersActivity"
+            android:label="@string/category_numbers"
+            android:parentActivityName="com.example.android.ProjectPro.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.ProjectPro.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.android.ProjectPro.FamilyActivity"
+            android:label="@string/category_family"
+            android:parentActivityName="com.example.android.ProjectPro.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.ProjectPro.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.android.ProjectPro.ColorsActivity"
+            android:label="@string/category_colors"
+            android:parentActivityName="com.example.android.ProjectPro.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.ProjectPro.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.android.ProjectPro.ExtraActivity"
+            android:label="@string/category_extra"
+            android:parentActivityName="com.example.android.ProjectPro.ExtraActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.ProjectPro.ExtraActivity"/>
+
+        <activity
+            android:name="com.example.android.ProjectPro.PhrasesActivity"
+            android:label="@string/category_phrases"
+            android:parentActivityName="com.example.android.ProjectPro.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.ProjectPro.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

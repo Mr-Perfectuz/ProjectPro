@@ -1,0 +1,20 @@
+
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Project Pro</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases"> SubhanaAllohu va bihamdihi</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Allohu Akbar</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Alhamdulillah</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">SubhanaAllohu </string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_extra">Alloh</string>
+</resources>
