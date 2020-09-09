@@ -1,5 +1,5 @@
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,50 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context="com.example.android.ProjectPro.FamilyActivity">
 
-</RelativeLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="SubhanaAlloh"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:onClick="incrementTwo"
+        android:text="+"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/quantity_text_viewTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="60sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="decrementTwo"
+        android:text="-"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

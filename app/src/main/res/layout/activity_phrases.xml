@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context="com.example.android.ProjectPro.PhrasesActivity">
 
-</RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="SubhanaAllohu va Bihamdihi"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:onClick="incrementFour"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:text="+"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/quantity_text_viewFour"
+        style="@style/NumberText"
+        />
+    <Button
+        style="@style/ButtonTwo"
+        android:onClick="decrementFour"
+        />
+
+</LinearLayout>

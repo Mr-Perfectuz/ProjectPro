@@ -17,4 +17,45 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
+
+    <!--Style for First button   -->
+    <style name="ButtonOne">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:text">+</item>
+    </style>
+
+    <!--Style for Number   -->
+    <style name="NumberText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <!--Style for Second button   -->
+    <style name="ButtonTwo">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:text">-</item>
+    </style>
+
+    <style name="FirstText">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">40dp</item>
+    </style>
 </resources>
