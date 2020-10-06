@@ -1,7 +1,7 @@
 Koraen Dictionary app
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Koran language.
+This app displays lists of activities to count tasbeh.
 
 
 Pre-requisites
